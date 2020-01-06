@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scorer.Tests.NUnit", "Score
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scorer.Tests.XUnit", "Scorer.Tests.XUnit\Scorer.Tests.XUnit.csproj", "{3DB23EE1-F74E-4705-A0CC-0BD0A3870CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scorer.Tests.MSTest", "Scorer.Tests.MSTest\Scorer.Tests.MSTest.csproj", "{1A63C2B1-0B39-45D4-833A-2B11E727CF7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scorer.Tests.MSTest", "Scorer.Tests.MSTest\Scorer.Tests.MSTest.csproj", "{5630C337-1D63-45F6-95B6-494DFF14661F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,15 +29,38 @@ Global
 		{3DB23EE1-F74E-4705-A0CC-0BD0A3870CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB23EE1-F74E-4705-A0CC-0BD0A3870CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB23EE1-F74E-4705-A0CC-0BD0A3870CCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A63C2B1-0B39-45D4-833A-2B11E727CF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A63C2B1-0B39-45D4-833A-2B11E727CF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A63C2B1-0B39-45D4-833A-2B11E727CF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A63C2B1-0B39-45D4-833A-2B11E727CF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5630C337-1D63-45F6-95B6-494DFF14661F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5630C337-1D63-45F6-95B6-494DFF14661F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5630C337-1D63-45F6-95B6-494DFF14661F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5630C337-1D63-45F6-95B6-494DFF14661F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F227B28-E4F6-4799-B4EA-B03E1E327703}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.VersionControlPolicy = $4
+		$0.TextStylePolicy = $5
+		$5.FileWidth = 80
+		$5.TabsToSpaces = True
+		$5.scope = text/plain
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = application/config+xml
+		$0.XmlFormattingPolicy = $7
+		$7.inheritsSet = null
+		$7.scope = application/config+xml
 	EndGlobalSection
 EndGlobal
