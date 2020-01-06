@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Scorer.Tests.MSTest
 {
+
 	[TestClass]
 	public class Scorer_MSTest_Tests
-	{
+    {
 		string _player = "Denham";
 		Scorer _scorer = null;
 
@@ -147,4 +147,5 @@ namespace Scorer.Tests.MSTest
 			Assert.AreEqual(0, _scoreCard.Spares);
 		}																		   
 	}
+   
 }
